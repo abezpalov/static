@@ -1,0 +1,20 @@
+table {
+	width: 100%;
+}
+
+.tm-li-category-name {
+	margin-left: 4px;
+}
+
+i[data-state=closed] {
+	cursor: pointer;
+}
+
+i[data-state=opened] {
+	cursor: pointer;
+}
+
+
+li.closed ul {
+	display: none;
+}
