@@ -18,3 +18,8 @@ i[data-state=opened] {
 li.closed ul {
 	display: none;
 }
+
+/* Отфильтрованные элементы */
+div.filtered {
+	display: none;
+}
