@@ -20,6 +20,6 @@ li.closed ul {
 }
 
 /* Отфильтрованные элементы */
-div.filtered {
+.hidden {
 	display: none;
 }
