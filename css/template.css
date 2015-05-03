@@ -23,3 +23,7 @@ li.closed ul {
 .hidden {
 	display: none;
 }
+
+body > main {
+	min-height: 80%;
+}
