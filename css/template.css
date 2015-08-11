@@ -3,7 +3,11 @@ table {
 }
 
 .tm-li-category-name {
-	margin-left: 4px;
+	margin-left: 6px;
+}
+
+li span {
+	margin-left: 6px;
 }
 
 i[data-state=closed] {
@@ -13,7 +17,6 @@ i[data-state=closed] {
 i[data-state=opened] {
 	cursor: pointer;
 }
-
 
 li.closed ul {
 	display: none;
