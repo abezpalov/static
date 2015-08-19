@@ -27,6 +27,11 @@ li.closed ul {
 	display: none;
 }
 
+/* Опуск футера */
 body > main {
 	min-height: 60%;
+}
+
+.bold {
+	font-weight: bold;
 }
