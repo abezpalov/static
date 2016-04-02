@@ -28,8 +28,24 @@ li.closed ul {
 }
 
 /* Опуск футера */
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+body > header {
+	flex: 0 0 auto;
+}
 body > main {
-	min-height: 60%;
+	flex: 1 0 auto;
+}
+body > footer {
+	flex: 0 0 auto;
 }
 
 .bold {
